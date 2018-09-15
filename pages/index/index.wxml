@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="viewContainer">
+  <view class="viewStyle" bindtap="apiTap">api接口测试</view>
+  <view class="viewStyle" bindtap="cacheTap">缓存测试</view>
+  <view class="viewStyle" bindtap="numTap">购物车数量输入框</view>
+  
+</view>

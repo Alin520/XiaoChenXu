@@ -1,0 +1,5 @@
+/* pages/cacheTest/cacheTest.wxss */
+
+.viewStyle{
+  margin: 80rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购物车数量输入框",
+  "usingComponents": {
+    "component-option-num": "/component/optionNumber-component/optionNumber-component"
+  }
+}

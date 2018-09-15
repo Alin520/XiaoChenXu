@@ -1,0 +1,100 @@
+/** app.wxss  全局的样式，供所有的page使用 **/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+page {
+  background-color: #F3F3F3;
+  font-size: 38rpx;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* 圆角按钮 */
+.baseContainer{
+  position: absolute;
+  bottom: 200rpx;
+  left: 32rpx;
+  right: 32rpx;
+  height: 80rpx;
+  border: 0rpx solid #999;
+  border-radius: 5rpx;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  align-content: center;
+  background: #999;
+}
+
+.submitBtn{
+  text-align: center;
+  font-size: 30rpx;
+  color: white;
+    display: flex;
+}
+
+.imgArrow{
+  height: 24rpx;
+  width: 13rpx;
+  align-items: center;
+}
+
+
+/* 顶部红色背景 */
+.topBackground{
+  width:100%;
+  height:260rpx;
+  background-color:#c81432;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/**************************** 字体大小 ***************************/
+.fontMax{
+  font-size: 60rpx;
+}
+.fontMiddle{
+  font-size: 30rpx;
+}
+.fontDefault{
+   font-size: 26rpx;
+}
+
+.fontSmall{
+   font-size: 24rpx;
+}
+
+.fontMin{
+   font-size: 20rpx;
+}
+
+/**************************** 颜色色值 ***************************/
+.defaultColor{
+  color: #F3F3F3;
+}
+.red{
+  color: #c81432;
+}
+
+.white{
+  color: #ffffff;
+}
+
+.grey{
+  color: #999;
+}
+.black{
+    color: #333;
+}
+.blue{
+  color: #0161ff;
+}

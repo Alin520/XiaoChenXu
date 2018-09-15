@@ -1,0 +1,18 @@
+<!--pages/cacheTest/cacheTest.wxml-->
+<view class="container">
+ 
+  <view class="viewStyle">
+    <text class="user-motto" bindtap='mapCacheClick1'>{{text1}}</text>
+  </view>
+  <view class="viewStyle">
+    <text class="user-motto" bindtap='mapCacheClick2'>{{text2}}</text>
+  </view>
+
+   <view class="viewStyle">
+    <text class="user-motto" style='margin:20rpx' bindtap='setCacheClick1'>{{text3}}</text>
+  </view>
+
+  <view class="viewStyle">
+    <text class="user-motto" style='margin:20rpx' bindtap='setCacheClick2'>{{text4}}</text>
+  </view>
+</view>

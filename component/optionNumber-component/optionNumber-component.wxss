@@ -1,0 +1,55 @@
+/* component/optionNumber-component/optionNumber-component.wxss */
+
+
+.optionView{
+  height: 58rpx;
+  width: 240rpx;
+  display: flex;
+  flex-direction: row;
+  border: 1rpx solid #999;
+  border-radius: 10rpx;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background: white;
+  margin-right: 64rpx;
+}
+
+.item{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.space{
+  height: 40rpx;
+  width: 1rpx;
+  color:  #999;
+  font-size: 30rpx;
+}
+.imgAdd{
+  width: 16rpx;
+  height: 16rpx;
+  padding-top: 14rpx;
+  padding-bottom: 14rpx
+}
+.imgReduce{
+  width: 16rpx;
+  height: 3.5rpx;
+
+  padding-top: 18rpx;
+  padding-bottom: 18rpx
+}
+.inputNum{
+    width: 70rpx;
+    color: #C81432;
+    font-size: 26rpx;
+    text-align: center;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+.textMax{
+  margin-top: 45rpx;
+  margin-bottom: 36rpx;
+}

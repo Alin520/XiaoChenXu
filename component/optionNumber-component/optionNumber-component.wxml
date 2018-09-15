@@ -1,0 +1,13 @@
+<view class='optionView'>
+  <button class="item" bindtap="_reduce" disabled="{{disabledMin}}" style="border:0;background:white" plain='true'>
+    <image class="imgReduce" src="{{disabledMin ? '/images/icon/ic_reduce_grey.png' : '/images/icon/ic_reduce.png'}}"></image>
+  </button>
+  <view class="space">|</view>
+  <view class="item">
+    <input class="inputNum" type='number' maxlength='3' bindinput="_input" value="{{num}}" placeholder="0" confirm-type="确认" bindblur="_blur" placeholder-style="font-size:26rpx;color:#C81432"></input>
+  </view>
+  <view class="space">|</view>
+  <button class="item" bindtap="_add" disabled="{{disabledMax}}" style="margin-left:6rpx;border:0;background:white" plain='true'>
+    <image class="imgAdd" src="{{disabledMax ? '/images/icon/ic_add_grey.png' : '/images/icon/ic_add.png'}}"></image>
+  </button>
+</view>

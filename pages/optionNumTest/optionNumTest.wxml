@@ -1,0 +1,5 @@
+<!--pages/optionNumTest/optionNumTest.wxml-->
+  <view style="margin:270rpx">
+    <!-- 数量选择控件 -->
+    <component-option-num bindoptionNum="showNumber" minNum="0" maxNum="60"></component-option-num>
+</view>
